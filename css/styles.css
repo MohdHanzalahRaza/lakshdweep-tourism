@@ -120,7 +120,12 @@ video {
   z-index: 99999999;
   padding: 1rem 0;
 }
+.navigation :hover {
+opacity: var(--shadow-300);
+color: black;
+transform: scale(1.05);
 
+}
 .nav {
   max-width: 996px;
   margin: 0 auto;
@@ -352,6 +357,7 @@ video {
 
 .about .col p {
   margin-bottom: 3rem;
+  font-weight: 800;
 }
 
 .about .col img,
@@ -419,6 +425,7 @@ video {
 
 .service .col p {
   margin-bottom: 3rem;
+   font-weight:800 ;
 }
 
 .service .d-flex {
